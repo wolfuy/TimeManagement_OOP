@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace TimeManagement.Models
 {
-    internal class InterFace_Thongbao
+    public interface InterFace_Thongbao
     {
+        string HienThiThongBao();
     }
 }
