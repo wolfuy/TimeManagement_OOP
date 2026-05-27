@@ -29,6 +29,8 @@ namespace TimeManagement.Services
             string jsonString = File.ReadAllText(_filePath);
             return JsonSerializer.Deserialize<List<T>>(jsonString) ?? new List<T>();
         }
+        public string ant { get; set; }
+        // cuwc cho awn cut
 
 
     }
