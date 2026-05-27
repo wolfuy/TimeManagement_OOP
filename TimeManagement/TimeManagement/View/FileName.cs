@@ -8,5 +8,6 @@ namespace TimeManagement.View
 {
     internal class FileName
     {
+        public string At { get; set; };
     }
 }
